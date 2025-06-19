@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 303.12 303.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome_93-3);
+      }
+
+      .cls-2 {
+        fill: #0c0819;
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_93);
+      }
+
+      .cls-4 {
+        fill: url(#Gradiente_sem_nome_93-2);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_93" data-name="Gradiente sem nome 93" x1="245.7" y1="118.89" x2="57.42" y2="118.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccafff"/>
+      <stop offset=".07" stop-color="#bd9dfb"/>
+      <stop offset=".29" stop-color="#8f66ef"/>
+      <stop offset=".51" stop-color="#6a3ae6"/>
+      <stop offset=".7" stop-color="#501be0"/>
+      <stop offset=".86" stop-color="#4007dc"/>
+      <stop offset=".97" stop-color="#3b01db"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_93-2" data-name="Gradiente sem nome 93" x1="208.91" y1="171.53" x2="95.62" y2="171.53" xlink:href="#Gradiente_sem_nome_93"/>
+    <linearGradient id="Gradiente_sem_nome_93-3" data-name="Gradiente sem nome 93" x1="169.62" y1="220.65" x2="132.09" y2="220.65" xlink:href="#Gradiente_sem_nome_93"/>
+  </defs>
+  <rect class="cls-2" x="-3" y="-1.5" width="311" height="305"/>
+  <g>
+    <polygon class="cls-3" points="226.58 134 225.33 132.86 207.48 116.69 199.6 109.56 187.64 98.74 173.86 86.27 169.25 82.1 150.22 64.87 150.14 64.8 131.06 83.5 122.4 91.99 112.66 101.54 96.67 117.21 94.25 119.59 75.84 137.63 70.93 142.44 57.42 155.68 70.93 167.91 76.54 172.98 94.95 154.94 96.67 153.25 113.36 136.89 122.4 128.03 131.77 118.84 150.18 100.79 150.22 100.84 168.57 117.44 173.86 122.24 188.4 135.39 199.6 145.53 207.5 152.7 225.33 168.83 226.62 169.99 245.7 151.3 226.58 134"/>
+    <polygon class="cls-4" points="189.79 170.74 174.56 156.95 170.69 153.44 150.91 135.55 150.85 135.48 132.44 153.53 123.09 162.69 114.03 171.58 97.36 187.92 95.62 189.63 97.36 191.21 115.45 207.58 123.09 200.09 133.86 189.54 150.91 172.82 152.28 171.49 171.38 188.79 174.56 191.66 190.5 206.09 200.29 196.49 208.91 188.04 200.29 180.25 189.79 170.74"/>
+    <polygon class="cls-1" points="150.5 202.97 139.79 213.48 132.09 221.02 139.79 227.98 151.21 238.32 165.52 224.29 169.62 220.28 165.52 216.56 150.5 202.97"/>
+  </g>
+</svg>
