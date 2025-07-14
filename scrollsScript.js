@@ -10,24 +10,30 @@ scrollSection.forEach((section) => {
   // Initialize
   let direction = null;
 
-  if (section.classList.contains("vertical-section")) {
-    direction = "vertical";
-  } else if (section.classList.contains("horizontal-section")) {
-    direction = "horizontal";
-  }
+  // if (section.classList.contains("vertical-section")) {
+  // } else if (section.classList.contains("horizontal-section")) {
+  //   direction = "horizontal";
+  // }
+  direction = "vertical";
 
   initScroll(section, items, direction);
 });
 
 function initScroll(section, items, direction) {
-  // Initial states
+  let num = 0
   items.forEach((item, index) => {
+    num++
     if (index !== 0) {
-      direction == "horizontal"
-        ? gsap.set(item, { xPercent: 100 })
-        : gsap.set(item, { yPercent: 100 });
+          if(index == 1) {
+            gsap.set(item, { xPercent: 100 }) 
+          } else if (index == 2) {
+            gsap.set(item, { yPercent: 100 }) 
+          } else if(index == 3) { 
+            gsap.set(item, { xPercent: -100 }) 
+          }
     }
-  });
+
+  })
 
   const timeline = gsap.timeline({
     scrollTrigger: {
@@ -47,20 +53,22 @@ function initScroll(section, items, direction) {
       borderRadius: "10px",
     });
 
-    direction == "horizontal"
-      ? timeline.to(
-          items[index + 1],
-          {
-            xPercent: 0,
-          },
-          "<"
-        )
-      : timeline.to(
-          items[index + 1],
-          {
-            yPercent: 0,
-          },
-          "<"
-        );
+    if(index == 0 || index == 2) {
+      timeline.to(
+        items[index + 1],
+        {
+          xPercent: 0,
+        },
+        "<"
+      )
+    } else {
+      timeline.to(
+        items[index + 1],
+        {
+          yPercent: 0,
+        },
+        "<"
+      );
+    }
   });
 }
