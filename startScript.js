@@ -44,7 +44,7 @@
 
         // Texto Digitado
         const typed = new Typed('#typed-text', {
-            strings: ['experiência digital', 'forma de trabalhar', 'maneira de conectar', 'realidade virtual'],
+            strings: [', você sonha, a gente codifica.'],
             typeSpeed: 50,
             backSpeed: 30,
             loop: true,
