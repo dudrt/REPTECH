@@ -514,9 +514,9 @@
             width: 80%;
             min-width: 80%;
             max-width: 80%;
-            height: 65%;
+            /* height: 65%;
             min-height: 65%;
-            max-height: 65%;
+            max-height: 65%; */
         }
 
         .feature-card:hover {
