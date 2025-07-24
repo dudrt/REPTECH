@@ -25,11 +25,11 @@ function initScroll(section, items, direction) {
     num++
     if (index !== 0) {
           if(index == 1) {
-            gsap.set(item, { xPercent: 100 }) 
+            gsap.set(item, { xPercent: 200 }) 
           } else if (index == 2) {
             gsap.set(item, { yPercent: 100 }) 
           } else if(index == 3) { 
-            gsap.set(item, { xPercent: -100 }) 
+            gsap.set(item, { xPercent: -200 }) 
           }
     }
 
